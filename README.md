@@ -2,7 +2,7 @@
 - 👀 I’m interested in data science and machine learning
 - 🌱 I’m currently learning data analytics
 - 💞️ I’m looking to collaborate on data analytics projects
-- 📫 How to reach me - bagheshri@gmail.com, www.linkedin.com/in/bagheshrisuresh
+- 📫 How to reach me - bagheshri@gmail.com, linkedin.com/in/bagheshrisuresh
 
 <!---
 BagheshriSK/BagheshriSK is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
