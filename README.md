@@ -37,8 +37,15 @@ Reasons for choosing the ward linkage method:
 Challenges Faced while performing the analysis:
 
 :sparkles:Data Complexity and Diversity: The dataset includes a variety of features representing urban spatial order, such as street network orientation,entropy and configuration.. The complexity and diversity of these features made it challenging to identify the most relevant variables for clustering and to interpret the clusters meaningfully.
+
 :sparkles:Scaling and Normalization: Given the diverse nature of the data, appropriate scaling (like Min-Max scaling) had to be performed to ensure equal contribution by all features to the clustering process. However, choosing the appropriate method for clustering and understanding its impact on the results was challenging.
+
 :sparkles:Choosing the Optimal Number of Clusters: Finding the optimal number of clusters, especially in hierarchical clustering, required careful analysis and examining the dendrograms. There is a possibility of these two instances: a risk of overfitting (too many clusters) or underfitting (too few clusters).
+
 :sparkles:Interpretation of Results: Understanding the clusters to derive meaningful insights about urban spatial order was slightly challenging. Features like orientation entropy and weighted orientation entropy are strongly correlated. Ηo and Ηw are very strongly correlated and thus provide essentially redundant statistical information about these networks. It requires a deep understanding of urban studies and how different features interact to define spatial order.
+
 :sparkles:Sensitivity to Outliers: Since both K-means and hierarchical clustering are sensitive to outliers, Outliers can significantly affect the mean (in K-means) or the calculation of distance (in hierarchical clustering), which could lead to skewed results.
-:sparkles:Choice of Linkage Criteria: In hierarchical clustering, the choice of linkage criteria (single, complete, average, Ward’s) plays a crucial role and can greatly affect the results. . The above challenges were addressed by gaining a good understanding of the dataset, using appropriate scaling techniques, carefully choosing the clustering parameters, interpreting the results and deriving meaningful insights in the context of urban spatial network, order and planning.
+
+:sparkles:Choice of Linkage Criteria: In hierarchical clustering, the choice of linkage criteria (single, complete, average, Ward’s) plays a crucial role and can greatly affect the results.
+
+The above challenges were addressed by gaining a good understanding of the dataset, using appropriate scaling techniques, carefully choosing the clustering parameters, interpreting the results and deriving meaningful insights in the context of urban spatial network, order and planning.
