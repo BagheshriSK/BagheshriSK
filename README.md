@@ -18,8 +18,6 @@ I design and build **production-ready AI systems** that go beyond simple prompts
 ## 🔥 Featured Projects
 
 
----
-
 ### ✈️ AI Travel Agent
 
 * Multi-step AI agent capable of planning trips dynamically
