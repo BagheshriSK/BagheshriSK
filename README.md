@@ -19,8 +19,21 @@ I design and build **production-ready AI systems** that go beyond simple prompts
 
 ---
 
+---
 ## 🔥 Featured Projects
 
+### 🧠 DecisionIQ — AI Decision Intelligence Platform
+- Real-time consumer signal intelligence platform powered by **LangGraph, Groq LLaMA 3.3, and live data ingestion** from Reddit, YouTube, App Store, and Google News
+- **HAZRA scoring model** ranks signals by volume (25%), velocity (30%), sentiment (25%), and recency (20%)
+- **LangGraph Sentinel Agent** polls every 60s and fires alerts when HAZRA score exceeds configurable threshold
+- **Winston** — a RAG-powered conversational AI assistant with persistent session history, brand/cluster context, and executive report generation
+- **Trend detection** with 7-day rolling delta momentum, emerging/declining/stable badges, and Holt-Winters forecasting with confidence bands
+- **Competitive timeline** tracking multi-brand HAZRA lines and inflection points across Samsung, Apple, and Google Pixel
+- Full-stack: FastAPI backend + PostgreSQL (signals, scores, alerts, chat sessions, reports) + React frontend with Signal Feed, Forecast View, Alert Center, and Executive Reports
+
+👉 [Repo](https://github.com/BagheshriSK/ai-decision-intelligence-platform)
+
+---
 ### 🏭 Agentic RAG Plant Floor Assistant
 - Multi-agent LangGraph pipeline for plant floor documentation queries
 - Hybrid BM25 + ChromaDB retrieval with LLM-as-judge retry loop
@@ -30,16 +43,6 @@ I design and build **production-ready AI systems** that go beyond simple prompts
 👉 [Live Demo](https://agentic-rag-plant-floor-assistant-production.up.railway.app) | [Repo](https://github.com/BagheshriSK/agentic-rag-plant-floor-assistant) | [Read the article](https://medium.com/@bagheshri/i-interviewed-for-a-forward-deployed-ai-engineer-role-heres-what-no-one-tells-you-192929a7fe45)
 
 ---
-
-### 🧠 DecisionIQ — AI Decision Intelligence Platform
-- Agentic decision support platform built with the Anthropic Python SDK
-- Multi-agent architecture for complex business decision workflows
-- Deployed on Vercel with PostgreSQL on Railway
-
-👉 [Repo](https://github.com/BagheshriSK/DecisionIQ)
-
----
-
 ### ✈️ AI Travel Agent
 - Multi-step AI agent capable of planning trips dynamically
 - Integrates tools, reasoning, and context-aware responses
